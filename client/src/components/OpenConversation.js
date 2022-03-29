@@ -64,9 +64,7 @@ const OpenConversation = () => {
               onChange={(e) => setText(e.target.value)}
               style={{ height: "75px", resize: "none" }}
             />
-            {/* <InputGroup.Append> */}
               <Button type="submit">Send</Button>
-            {/* </InputGroup.Append> */}
           </InputGroup>
         </Form.Group>
       </Form>
